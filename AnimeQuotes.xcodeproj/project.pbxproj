@@ -12,6 +12,7 @@
 		95E4AC9326E21F3C00DFCE9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95E4AC9226E21F3C00DFCE9C /* Assets.xcassets */; };
 		95E4AC9626E21F3C00DFCE9C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95E4AC9526E21F3C00DFCE9C /* Preview Assets.xcassets */; };
 		95E4AC9E26E220DA00DFCE9C /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E4AC9D26E220DA00DFCE9C /* APIConstants.swift */; };
+		95E4ACA326E2229300DFCE9C /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E4ACA226E2229300DFCE9C /* Quote.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		95E4AC9226E21F3C00DFCE9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95E4AC9526E21F3C00DFCE9C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		95E4AC9D26E220DA00DFCE9C /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		95E4ACA226E2229300DFCE9C /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		95E4AC8D26E21F3A00DFCE9C /* AnimeQuotes */ = {
 			isa = PBXGroup;
 			children = (
+				95E4AC9F26E2225500DFCE9C /* Feature */,
 				95E4AC9C26E220C900DFCE9C /* Constants */,
 				95E4AC8E26E21F3A00DFCE9C /* AnimeQuotesApp.swift */,
 				95E4AC9026E21F3A00DFCE9C /* ContentView.swift */,
@@ -76,6 +79,30 @@
 				95E4AC9D26E220DA00DFCE9C /* APIConstants.swift */,
 			);
 			path = Constants;
+			sourceTree = "<group>";
+		};
+		95E4AC9F26E2225500DFCE9C /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				95E4ACA026E2225B00DFCE9C /* Quotes */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		95E4ACA026E2225B00DFCE9C /* Quotes */ = {
+			isa = PBXGroup;
+			children = (
+				95E4ACA126E2227600DFCE9C /* Model */,
+			);
+			path = Quotes;
+			sourceTree = "<group>";
+		};
+		95E4ACA126E2227600DFCE9C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				95E4ACA226E2229300DFCE9C /* Quote.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +175,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95E4ACA326E2229300DFCE9C /* Quote.swift in Sources */,
 				95E4AC9126E21F3A00DFCE9C /* ContentView.swift in Sources */,
 				95E4AC8F26E21F3A00DFCE9C /* AnimeQuotesApp.swift in Sources */,
 				95E4AC9E26E220DA00DFCE9C /* APIConstants.swift in Sources */,
