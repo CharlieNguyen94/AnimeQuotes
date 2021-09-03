@@ -11,6 +11,7 @@
 		95E4AC9126E21F3A00DFCE9C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E4AC9026E21F3A00DFCE9C /* ContentView.swift */; };
 		95E4AC9326E21F3C00DFCE9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95E4AC9226E21F3C00DFCE9C /* Assets.xcassets */; };
 		95E4AC9626E21F3C00DFCE9C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95E4AC9526E21F3C00DFCE9C /* Preview Assets.xcassets */; };
+		95E4AC9E26E220DA00DFCE9C /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E4AC9D26E220DA00DFCE9C /* APIConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		95E4AC9026E21F3A00DFCE9C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		95E4AC9226E21F3C00DFCE9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95E4AC9526E21F3C00DFCE9C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		95E4AC9D26E220DA00DFCE9C /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		95E4AC8D26E21F3A00DFCE9C /* AnimeQuotes */ = {
 			isa = PBXGroup;
 			children = (
+				95E4AC9C26E220C900DFCE9C /* Constants */,
 				95E4AC8E26E21F3A00DFCE9C /* AnimeQuotesApp.swift */,
 				95E4AC9026E21F3A00DFCE9C /* ContentView.swift */,
 				95E4AC9226E21F3C00DFCE9C /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				95E4AC9526E21F3C00DFCE9C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		95E4AC9C26E220C900DFCE9C /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				95E4AC9D26E220DA00DFCE9C /* APIConstants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				95E4AC9126E21F3A00DFCE9C /* ContentView.swift in Sources */,
 				95E4AC8F26E21F3A00DFCE9C /* AnimeQuotesApp.swift in Sources */,
+				95E4AC9E26E220DA00DFCE9C /* APIConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +289,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +319,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
