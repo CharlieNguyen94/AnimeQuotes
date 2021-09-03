@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct QuotesScreen: View {
+    
     var body: some View {
         List {
             ForEach(Quote.dummyData, id: \.anime) { item in
