@@ -14,6 +14,7 @@
 		95E4AC9E26E220DA00DFCE9C /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E4AC9D26E220DA00DFCE9C /* APIConstants.swift */; };
 		95E4ACA326E2229300DFCE9C /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E4ACA226E2229300DFCE9C /* Quote.swift */; };
 		95E4ACA626E2294C00DFCE9C /* QuotesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E4ACA526E2294C00DFCE9C /* QuotesScreen.swift */; };
+		95E4ACA926E22C6400DFCE9C /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E4ACA826E22C6400DFCE9C /* QuoteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		95E4AC9D26E220DA00DFCE9C /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
 		95E4ACA226E2229300DFCE9C /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 		95E4ACA526E2294C00DFCE9C /* QuotesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesScreen.swift; sourceTree = "<group>"; };
+		95E4ACA826E22C6400DFCE9C /* QuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		95E4ACA026E2225B00DFCE9C /* Quotes */ = {
 			isa = PBXGroup;
 			children = (
+				95E4ACA726E22C4A00DFCE9C /* Views */,
 				95E4ACA426E2293500DFCE9C /* Screen */,
 				95E4ACA126E2227600DFCE9C /* Model */,
 			);
@@ -114,6 +117,14 @@
 				95E4ACA526E2294C00DFCE9C /* QuotesScreen.swift */,
 			);
 			path = Screen;
+			sourceTree = "<group>";
+		};
+		95E4ACA726E22C4A00DFCE9C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				95E4ACA826E22C6400DFCE9C /* QuoteView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				95E4ACA326E2229300DFCE9C /* Quote.swift in Sources */,
+				95E4ACA926E22C6400DFCE9C /* QuoteView.swift in Sources */,
 				95E4AC9126E21F3A00DFCE9C /* ContentView.swift in Sources */,
 				95E4AC8F26E21F3A00DFCE9C /* AnimeQuotesApp.swift in Sources */,
 				95E4AC9E26E220DA00DFCE9C /* APIConstants.swift in Sources */,
