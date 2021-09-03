@@ -16,6 +16,7 @@
 		95E4ACA926E22C6400DFCE9C /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E4ACA826E22C6400DFCE9C /* QuoteView.swift */; };
 		95E4ACAC26E22DAA00DFCE9C /* QuotesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E4ACAB26E22DAA00DFCE9C /* QuotesService.swift */; };
 		95E4ACAF26E2306800DFCE9C /* QuotesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E4ACAE26E2306800DFCE9C /* QuotesViewModel.swift */; };
+		95E4ACB426E2379700DFCE9C /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E4ACB326E2379700DFCE9C /* LoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		95E4ACA826E22C6400DFCE9C /* QuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
 		95E4ACAB26E22DAA00DFCE9C /* QuotesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesService.swift; sourceTree = "<group>"; };
 		95E4ACAE26E2306800DFCE9C /* QuotesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewModel.swift; sourceTree = "<group>"; };
+		95E4ACB326E2379700DFCE9C /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +63,8 @@
 		95E4AC8D26E21F3A00DFCE9C /* AnimeQuotes */ = {
 			isa = PBXGroup;
 			children = (
+				95E4ACB026E2376E00DFCE9C /* Base */,
 				95E4AC9F26E2225500DFCE9C /* Feature */,
-				95E4AC9C26E220C900DFCE9C /* Constants */,
 				95E4AC8E26E21F3A00DFCE9C /* AnimeQuotesApp.swift */,
 				95E4AC9226E21F3C00DFCE9C /* Assets.xcassets */,
 				95E4AC9426E21F3C00DFCE9C /* Preview Content */,
@@ -146,6 +148,31 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		95E4ACB026E2376E00DFCE9C /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				95E4ACB126E2377B00DFCE9C /* Views */,
+				95E4AC9C26E220C900DFCE9C /* Constants */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		95E4ACB126E2377B00DFCE9C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				95E4ACB226E2378A00DFCE9C /* Loading */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		95E4ACB226E2378A00DFCE9C /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				95E4ACB326E2379700DFCE9C /* LoadingView.swift */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -221,6 +248,7 @@
 				95E4ACA926E22C6400DFCE9C /* QuoteView.swift in Sources */,
 				95E4AC8F26E21F3A00DFCE9C /* AnimeQuotesApp.swift in Sources */,
 				95E4ACAF26E2306800DFCE9C /* QuotesViewModel.swift in Sources */,
+				95E4ACB426E2379700DFCE9C /* LoadingView.swift in Sources */,
 				95E4AC9E26E220DA00DFCE9C /* APIConstants.swift in Sources */,
 				95E4ACA626E2294C00DFCE9C /* QuotesScreen.swift in Sources */,
 			);
