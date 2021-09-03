@@ -9,11 +9,18 @@ import SwiftUI
 
 struct QuotesScreen: View {
     
+    @StateObject private var viewModel = QuotesViewModelImplementation(
+        service: QuotesServiceImplementation()
+    )
+    
     var body: some View {
         List {
-            ForEach(Quote.dummyData, id: \.anime) { item in
+            ForEach(viewModel.quotes, id: \.anime) { item in
                 QuoteView(item: item)
             }
+        }
+        .task {
+            await viewModel.getRandomQuotes()
         }
     }
 }

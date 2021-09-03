@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		95E4AC8F26E21F3A00DFCE9C /* AnimeQuotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E4AC8E26E21F3A00DFCE9C /* AnimeQuotesApp.swift */; };
-		95E4AC9126E21F3A00DFCE9C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E4AC9026E21F3A00DFCE9C /* ContentView.swift */; };
 		95E4AC9326E21F3C00DFCE9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95E4AC9226E21F3C00DFCE9C /* Assets.xcassets */; };
 		95E4AC9626E21F3C00DFCE9C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95E4AC9526E21F3C00DFCE9C /* Preview Assets.xcassets */; };
 		95E4AC9E26E220DA00DFCE9C /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E4AC9D26E220DA00DFCE9C /* APIConstants.swift */; };
@@ -22,7 +21,6 @@
 /* Begin PBXFileReference section */
 		95E4AC8B26E21F3A00DFCE9C /* AnimeQuotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimeQuotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95E4AC8E26E21F3A00DFCE9C /* AnimeQuotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeQuotesApp.swift; sourceTree = "<group>"; };
-		95E4AC9026E21F3A00DFCE9C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		95E4AC9226E21F3C00DFCE9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95E4AC9526E21F3C00DFCE9C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		95E4AC9D26E220DA00DFCE9C /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
@@ -66,7 +64,6 @@
 				95E4AC9F26E2225500DFCE9C /* Feature */,
 				95E4AC9C26E220C900DFCE9C /* Constants */,
 				95E4AC8E26E21F3A00DFCE9C /* AnimeQuotesApp.swift */,
-				95E4AC9026E21F3A00DFCE9C /* ContentView.swift */,
 				95E4AC9226E21F3C00DFCE9C /* Assets.xcassets */,
 				95E4AC9426E21F3C00DFCE9C /* Preview Content */,
 			);
@@ -222,7 +219,6 @@
 				95E4ACA326E2229300DFCE9C /* Quote.swift in Sources */,
 				95E4ACAC26E22DAA00DFCE9C /* QuotesService.swift in Sources */,
 				95E4ACA926E22C6400DFCE9C /* QuoteView.swift in Sources */,
-				95E4AC9126E21F3A00DFCE9C /* ContentView.swift in Sources */,
 				95E4AC8F26E21F3A00DFCE9C /* AnimeQuotesApp.swift in Sources */,
 				95E4ACAF26E2306800DFCE9C /* QuotesViewModel.swift in Sources */,
 				95E4AC9E26E220DA00DFCE9C /* APIConstants.swift in Sources */,
